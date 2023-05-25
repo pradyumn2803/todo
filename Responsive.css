@@ -1,0 +1,112 @@
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  .thetodo {
+    font-size: 18px;
+  }
+
+  .clear {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  .enter-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .heading-todo {
+    width: fit-content;
+  }
+  .todos {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .clear {
+    position: absolute;
+    right: 5%;
+  }
+
+  .mytodos {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 5px;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: auto;
+    justify-content: center;
+    width: 75%;
+  }
+
+  .text {
+    margin-bottom: 5px;
+  }
+
+  input[type="text"] {
+    font-size: 12px;
+    width: 60%;
+  }
+
+  .send {
+    padding: 8px;
+  }
+
+  .thetodo {
+    font-size: 16px;
+  }
+
+  .clear {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .enter-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .heading-todo {
+    width: fit-content;
+  }
+  .todos {
+    width: 90%;
+  }
+
+  .clear {
+    position: absolute;
+    right: 5%;
+  }
+
+  .mytodos {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}

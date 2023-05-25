@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+    margin-top: 1%;
+    background-color: rgb(117, 117, 230);
+    color: white;
+    padding: 25px;
+    box-shadow: 5px 5px 5px rgb(52, 50, 50);
+}
+
+.text{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.enter-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 100px;
+    border-radius: 0.2cm;
+    box-shadow: 3px 3px 3px 3px rgb(136, 129, 129);
+}
+
+
+.send{
+    background-color: rgb(117, 117, 230);;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    border-radius: 0.2cm;
+}
+
+input{
+    padding: 15px;
+    width: 300px;
+    border-radius: 0.2cm;
+    font-size: large;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    width: 600px;
+    height: auto;
+    border-radius: 0.2cm;
+    /* box-sizing: inherit; */
+    box-shadow: 3px 3px 3px 3px rgb(136, 129, 129);
+}
+
+.thetodo{
+    font-size: x-large;
+    padding: 20px;
+}
+
+.heading-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mytodos{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(169, 169, 169);
+    width: 400px;
+    /* margin: auto; */
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    border-radius: 0.2cm;
+    padding: 20px;
+    width: 75%;
+}
+
+.delete-icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.clear{
+    margin-right: 15px;
+    margin-top: 8px;
+    width: 75px;
+    height: 35px;
+    font-size: large;
+    background-color: rgb(117, 117, 230);
+    color: white;
+    border-radius: 0.2cm;
+    cursor: pointer;
+}
+
+.clear:hover{
+    background-color: blue;
+}
+
+.send:hover{
+    background-color: blue;
+}
