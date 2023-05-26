@@ -62,14 +62,14 @@ document.addEventListener('DOMContentLoaded', function() {
       const todoContent = document.createElement('p');
       todoContent.textContent = todoText;
   
-      const todoAuthor = document.createElement('p');
-      todoAuthor.textContent = 'author: Pradyumn';
+      // const todoAuthor = document.createElement('p');
+      // todoAuthor.textContent = 'author: Pradyumn';
   
       const todoAdded = document.createElement('p');
       todoAdded.textContent = `Added on ${addedDate}`;
   
       todoTextElement.appendChild(todoContent);
-      todoTextElement.appendChild(todoAuthor);
+      // todoTextElement.appendChild(todoAuthor);
       todoTextElement.appendChild(todoAdded);
   
       const deleteElement = document.createElement('div');
